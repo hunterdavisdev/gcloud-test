@@ -16,6 +16,7 @@
     "typescript": "^4.1.5"
   },
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "start": "etsc && node ./dist/index.js"
   }
 }
