@@ -17,6 +17,7 @@
   },
   "scripts": {
     "dev": "nodemon",
-    "start": "etsc && node ./dist/index.js"
+    "gcp-build": "etsc",
+    "start": "node ./dist/index.js"
   }
 }
